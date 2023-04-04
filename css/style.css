@@ -17,7 +17,7 @@
 }
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body {
     background: var(--second-color);
@@ -551,6 +551,23 @@ span {
 @media (max-width:450px){
     html {
         font-size: 50%;
+    }
+    .contact {
+        min-height: 86vh;
+    }
+    .contact form .input-box input {
+        width: 100%;
+    }
+    .home-img img {
+        width: 90vw;
+    }
+    .about img {
+        width: 90vw;
+    }
+}
+@media (max-width:360px){
+    html {
+        font-size:44%;
     }
     .contact {
         min-height: 86vh;
